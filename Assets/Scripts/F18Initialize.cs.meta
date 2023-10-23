@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d1650cd89904a104c87671f510c2778a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - respawnPoint: {instanceID: 0}
+  - landingGearBackLeft: {fileID: -927199367670048503, guid: 57cb482a463cb27468f11fdcaeceb7d9,
+      type: 3}
+  - landingGearBackRight: {instanceID: 0}
+  - landingGearFront: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
