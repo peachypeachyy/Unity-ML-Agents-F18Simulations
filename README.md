@@ -2,7 +2,8 @@
 
 Simulate Aircraft landings without spending any costs.
 
-The repository features simulations of an aircraft such as an F18 on an Aircraft carrier using real-world environmental constraints.
+The repository features simulations of an aircraft such as an F18 on an Aircraft carrier subject to real-world environmental constraints using reinforcement learning of Proximal Policy Optimization.
+
 Note this only contains the Assets of the Individual project and not the assets of the Entire Unity Library.
 
 The Project uses ML-Agents from Unity with PPO Optimization to optimize aircraft landings.
