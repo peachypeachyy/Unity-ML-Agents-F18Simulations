@@ -34,19 +34,22 @@ Simulations can help in such situations where physical demonstrations may prove 
 
 # Methodology
 
-The Following is the rough code structure :
-
-![My Image](https://github.com/peachypeachyy/portfolio-contents/blob/main/rl-aircraft_ai/supporting_assets/code_structure.png)
+Domain Driven design is used so that each object has it's own properties and it's own methods.
 
 The Entire code has been written in C# which then indexes the ML-Agents implementation written in python.
 The project uses Tensorflow to perform reinforcement learning using Proximal Policy Optimization.
+
+The following is the rough code structure :
+
+![My Image](https://github.com/peachypeachyy/portfolio-contents/blob/main/rl-aircraft_ai/supporting_assets/code_structure.png)
+
 
 The main goal of the project is maximize the cumulative reward structure.
 The code for implementation is in the Assets folder.
 
 # Results
 
-The Following show successfull landing of the aircraft on the aircraft carrier
+The Following shows the successful landing of the aircraft on the aircraft carrier
 
 ![My Image](https://github.com/peachypeachyy/portfolio-contents/blob/main/rl-aircraft_ai/supporting_assets/aircraft_2nd_land.png)
 
@@ -55,18 +58,18 @@ The front view camera of the aircraft on landing is as follows :
 ![My Image](https://github.com/peachypeachyy/portfolio-contents/blob/main/rl-aircraft_ai/supporting_assets/Aircraft_successfull_landing.png)
 
 
-The metrics and evaluation show a steady rise of the cumulative reward over time indicating successfull reinforcement learning
+The metrics and evaluation show a steady rise in the cumulative reward over time indicating successful reinforcement learning
 
 ![My Image](https://github.com/peachypeachyy/portfolio-contents/blob/main/rl-aircraft_ai/supporting_assets/Cumulative_Reward_Aircraft_Landing-1.png)
 
 
-The learning rate, gradient descent and number of hidden neural networks were tweaked to provide superior performance over previous runs.
+The learning rate, gradient descent and the number of hidden neural networks were tweaked to provide superior performance over previous runs.
 
 ![My Image](https://github.com/peachypeachyy/portfolio-contents/blob/main/rl-aircraft_ai/supporting_assets/Cumulative_Reward_al_20_x_al_18.png)
 
-It is visible that the Green line is rising steadily and is much more fine tuned compared to the yellow line which is very choppy.
+It is visible that the Green line is rising steadily and is much more fine-tuned compared to the yellow line which is very choppy.
 
 # Conclusion
 
-Therefore using reinforcement learning with Tensorflow interfacing with Unity as a simulation engine, we were able to train the agent with real life circumstances to provide a near real-time simulation.
+Therefore using reinforcement learning with Tensorflow interfacing with Unity as a simulation engine, we were able to train the agent with real-life circumstances to provide a near real-time simulation.
 
